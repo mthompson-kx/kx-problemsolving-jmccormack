@@ -20,4 +20,4 @@ The services can be implemented in any language (implementing in Q would be a ni
 * Please fork this git repository and work inside your own
 * Provide a solution for the described problem and give us the instructions necessary to execute it
 * We would like to have your solution in form of a Pull Request into the main repository
-* _What should the Gateway do if no services are running?_
+* _What should the Gateway do if no Storage Services are running?_
