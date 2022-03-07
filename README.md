@@ -11,7 +11,7 @@ The service assembly will have the following components:
     * **/data** - fetches the dummy data from a Storage Service (eg. with round robin) and returns the data in JSON format
 
 We would like the services to be containerised and run with docker-compose.
-The services can be implemented in any language (implementing in Q would be a nice to have)
+The services can be implemented using any programming language.
 
 ## Architecture
 <img src="https://user-images.githubusercontent.com/90027208/152865747-5c4734dd-c046-4170-ae04-f0ea1448cf89.png" width="300">
