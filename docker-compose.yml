@@ -1,0 +1,27 @@
+version: '3.9'
+services:
+  gateway-service:
+    image: gateway-service-img
+    build:
+      context: ./gatewayservice
+      dockerfile: Dockerfile.gateway
+    ports:
+     - "8000:8000"
+  storage-service-1:
+    image: storage-service-img-1
+    hostname: storageservice1
+    build:
+      context: ./storageservice
+      dockerfile: Dockerfile.server
+  storage-service-2:
+    image: storage-service-img-2
+    hostname: storageservice2
+    build:
+      context: ./storageservice
+      dockerfile: Dockerfile.server
+  storage-service-3:
+    image: storage-service-img-3
+    hostname: storageservice3
+    build:
+      context: ./storageservice
+      dockerfile: Dockerfile.server
